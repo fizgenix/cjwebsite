@@ -18,7 +18,9 @@ html {
 }
 
 body {
-  background-color: rgb(225, 213, 213);
+  /* background-color: rgb(238, 230, 216); */
+  background-color: white;
+  /* background-image: url("drew-beamer-kUHfMW8awpE-unsplash.jpg"); */
   color: #fff;
   padding: 8rem;
 }
@@ -28,7 +30,22 @@ body {
   }
 }
 
-
+.heading{
+	text-transform: uppercase;
+  background: linear-gradient(to right, #F36265 0%, #961276 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-bottom:30px;
+  padding-top: 0%;
+}
+/* .logo{
+  height: 50px;
+  width: 50px;
+  position: relative;
+} */
 .container {
   position: relative;
   overflow: hidden;
@@ -163,22 +180,32 @@ body {
   background-color: #93B5C6;
 }
 .slider .container1 .design .inner {
-  background-color: #C9CCD5;
+  /* background-color: #C9CCD5; */
+  background-image: url("Ebook.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .slider .container1 .design .inner::after, .slider .container1 .design .inner::before {
   background-color: #E4D8DC;
+  opacity: 0.09;
 }
 .slider .container1 button {
   background-color: black;
 }
+
+
 .slider .container2 {
   background-color: #FF8585;
 }
+
 .slider .container2 .design .inner {
-  background-color: #FFB396;
+  background-image: url("Chat bot.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .slider .container2 .design .inner::after, .slider .container2 .design .inner::before {
   background-color:#FFF5C0;
+  opacity: 0.09;
 }
 .slider .container2 button {
   background-color: black;
@@ -187,38 +214,20 @@ body {
   background-color: #1687A7;
 }
 .slider .container3 .design .inner {
-  background-color: #D3E0EA;
+  /* background-color: #D3E0EA; */
+  background-image: url("Creative team.gif");
+  background-size:cover;
+  background-position:center ;
+  background-repeat: no-repeat;
 }
 .slider .container3 .design .inner::after, .slider .container3 .design .inner::before {
   background-color: #F6F5F5;
+  opacity: 0.09;
 }
 .slider .container3 button {
   background-color: black;
 }
- /* .slider .box4 {
-  background-color: #554d00;
-}
-.slider .box4 .design .inner {
-  background-color: #ff4e00;
-}
-.slider .box4 .design .inner::after, .slider .box4 .design .inner::before {
-  background-color: rgba(255, 78, 0, 0.4);
-}
-.slider .box4 button {
-  background-color: #ff4e00;
-}
-.slider .box5 {
-  background-color: #300050;
-}
-.slider .box5 .design .inner {
-  background-color: #8000ff;
-}
-.slider .box5 .design .inner::after, .slider .box5 .design .inner::before {
-  background-color: rgba(128, 0, 255, 0.4);
-}
-.slider .box5 button {
-  background-color: #8000ff;
-}  */
+ 
 .slider .design {
   grid-column: 2/-1;
   grid-row: 1/-1;
@@ -234,12 +243,12 @@ body {
   }
 }
 .slider .design div {
-  height: 25rem;
-  width: 18rem;
+  height: 35rem;
+  width: 28rem;
   border-radius: 3rem;
-  background-color: #ff0077;
+  /* background-color: #ff0077; */
   position: relative;
-  transform: skewX(-10deg);
+  /* transform: skewX(-10deg); */
 }
 @media only screen and (max-width: 800px) {
   .slider .design div {
@@ -304,9 +313,9 @@ body {
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
-  width: 60%;
+  width: 30%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   text-align: center;
   font-size: 1.5rem;
@@ -335,4 +344,14 @@ body {
 
 .active {
   opacity: 1 !important;
+}
+
+footer{
+  color: white;
+  background-color: #343A40;
+  font-size: 20px;
+  height: 47px;
+  width: 100vw;
+  padding: 12px;
+
 }
