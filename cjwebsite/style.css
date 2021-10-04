@@ -41,11 +41,7 @@ body {
   padding-bottom:30px;
   padding-top: 0%;
 }
-/* .logo{
-  height: 50px;
-  width: 50px;
-  position: relative;
-} */
+
 .container {
   position: relative;
   overflow: hidden;
@@ -177,7 +173,7 @@ body {
   border: none;
 }
 .slider .container1 {
-  background-color: #93B5C6;
+  background-color: #8AB4A7;
 }
 .slider .container1 .design .inner {
   /* background-color: #C9CCD5; */
@@ -186,7 +182,7 @@ body {
   background-repeat: no-repeat;
 }
 .slider .container1 .design .inner::after, .slider .container1 .design .inner::before {
-  background-color: #E4D8DC;
+  background-color:#f5ea92;
   opacity: 0.09;
 }
 .slider .container1 button {
@@ -310,7 +306,7 @@ body {
 }
 
 .trail {
-  bottom: 5%;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
   width: 30%;
